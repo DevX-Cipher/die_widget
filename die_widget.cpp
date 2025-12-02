@@ -70,6 +70,10 @@ DIE_Widget::~DIE_Widget()
     delete ui;
 }
 
+XScanEngine::SCAN_RESULT DIE_Widget::getScanResult() const {
+    return g_scanResult;
+}
+
 // void DIE_Widget::setOptions(DIE_Widget::OPTIONS *pOptions)
 //{
 //     ui->checkBoxRecursiveScan->setChecked(pOptions->bRecursiveScan);

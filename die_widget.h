@@ -63,7 +63,7 @@ public:
     virtual void adjustView();
     void setGlobal(XShortcuts *pShortcuts, XOptions *pXOptions);
     virtual void reloadData(bool bSaveSelection);
-
+	XScanEngine::SCAN_RESULT getScanResult() const;
 private slots:
     void clear();
     void process();
