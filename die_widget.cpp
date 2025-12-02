@@ -71,7 +71,7 @@ DIE_Widget::~DIE_Widget()
 }
 
 XScanEngine::SCAN_RESULT DIE_Widget::getScanResult() const {
-    return g_scanResult;
+    return m_scanResult;
 }
 
 // void DIE_Widget::setOptions(DIE_Widget::OPTIONS *pOptions)
